@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Restoran</title>
+    <!-- owl slider -->
+    <link rel="stylesheet" href="./owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./owlcarousel/assets/owl.theme.default.min.css">
+    <!-- font-awesome link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<!-- owl-carousel slider -->
+<div class="owl-carousel owl-theme">
+    <div class="item item1 bg-transparent border rounded p-4">
+        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+        <div class="d-flex align-items-center">
+            <img class="img-fluid flex-shrink-0 rounded-circle" src="./images/testimonial-1.jpg" style="width: 50px; height: 50px;">
+            <div class="ps-3">
+                <h5 class="mb-1">Client Name</h5>
+                <small>Profession</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="item item2 bg-transparent border rounded p-4">
+        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+        <div class="d-flex align-items-center">
+            <img class="img-fluid flex-shrink-0 rounded-circle" src="./images/testimonial-2.jpg" style="width: 50px; height: 50px;">
+            <div class="ps-3">
+                <h5 class="mb-1">Client Name</h5>
+                <small>Profession</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="item item3 bg-transparent border rounded p-4">
+        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+        <div class="d-flex align-items-center">
+            <img class="img-fluid flex-shrink-0 rounded-circle" src="./images/testimonial-3.jpg" style="width: 50px; height: 50px;">
+            <div class="ps-3">
+                <h5 class="mb-1">Client Name</h5>
+                <small>Profession</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="item item4 bg-transparent border rounded p-4">
+        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+        <p>Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+        <div class="d-flex align-items-center">
+            <img class="img-fluid flex-shrink-0 rounded-circle" src="./images/testimonial-4.jpg" style="width: 50px; height: 50px;">
+            <div class="ps-3">
+                <h5 class="mb-1">Client Name</h5>
+                <small>Profession</small>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- Testimonial end -->
+
+
+    <!-- jouery file -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-qFOQ9YFAeGj1gDOuUD61g3D+tLDv3u1ECYWqT82WQoaWrOhAY+5mRMTTVsQdWutbA5FORCnkEPEgU0OF8IzGvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+    <script src="jquery-3.7.1.js"></script>
+
+    <!-- js-owl-file -->
+    <script src="./owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- main.js -->
+    <script src="./main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".owl-carousel").owlCarousel({
+                    margin: 25,
+                    loop: true,
+                    dots: true,
+                    nav:false,
+                    autoplay: 1000,
+                    autoplayHoverPause: true,
+                    items:3
+                }
+            );
+        });
+    </script>
+</body>
+
+</html>
